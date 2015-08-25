@@ -1,0 +1,243 @@
+/********************************************************
+ 
+    neon-style.css
+    for: www.ju-x.com
+
+    Created by Juno @Ju-X on 5/14/14.
+    Copyright (c) 2014 Juno Ju-X. All rights reserved.
+ 
+*********************************************************/
+
+@import url('https://fonts.googleapis.com/css?family=Nunito&subset=latin');
+
+body {
+    
+    overflow: hidden;
+
+    background-color: #000;
+    background-image: url('images/fTB.jpg');
+    background-position: top center;
+    background-repeat: repeat;
+    background-attachment: fixed;
+
+    color: #bbb;
+    font: 15px "Nunito", Nunito, sans-serif;
+    line-height: 120%;
+    font-smooth: always;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Emphasized */
+p2 {
+    
+    font-size: 16px;
+    font-weight: bold;
+    color: #ccffcc;
+}
+
+/* Links */
+a:link {text-decoration: none}
+a:visited {}
+a:hover {text-decoration: underline}
+a:active {}
+
+/* Menu */
+.menuStyle {
+    
+    position: absolute;
+    margin: 7px 138px 0px 234px;
+    min-width: 600px;
+}
+
+.menuBtn {
+
+    display: inline-block;
+    height: 78px;
+    width: 95px;
+    margin-right: 3px;
+
+    color: #aaa;
+    text-align: center;
+    line-height: 14px;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 6px;
+
+    background: #282828;
+
+    -moz-border-radius: 4px 20px 4px 4px;
+    -webkit-border-radius: 4px 20px 4px 4px;
+    -khtml-border-radius: 4px 20px 4px 4px;
+    border-radius: 4px 20px 4px 4px;
+}
+
+a.menuBtn:link {
+    
+    text-decoration: none;
+}
+
+a.menuBtn:hover {
+    
+    background: #333;
+    color: #ccffcc;
+}
+
+/* Other Parts */
+div.kadomaru {
+    
+    text-align: justify;
+    min-width: 500px;
+    min-height: 498px;
+    font-size: 14px;
+    width: auto;
+    padding: 25px 32px 25px 35px;
+    left: 241px; right: 15px;
+    
+    overflow: auto !important;
+    position: absolute !important;
+    top: 43px !important;
+    bottom: 15px !important;
+
+    -moz-border-radius: 0px 4px 4px 4px;
+    -webkit-border-radius: 0px 4px 4px 4px;
+    -khtml-border-radius: 0px 4px 4px 4px;
+    border-radius: 0px 4px 4px 4px;
+
+    background: rgba(225, 225, 225, 0.1);
+}
+
+div.backmaru {
+
+    min-width: 814px;
+    min-height: 592px;
+    left: 7px; right: 7px;
+    top: 8px !important;
+    bottom: 7px !important;
+    
+    overflow: auto !important;
+    position: absolute !important;
+
+    -moz-border-radius: 44px 6px 6px 6px;
+    -webkit-border-radius: 44px 6px 6px 6px;
+    -khtml-border-radius: 44px 6px 6px 6px;
+    border-radius: 44px 6px 6px 6px;
+    
+    background: rgba(100, 100, 100, 0.2);
+    
+    box-shadow: 3px 3px 5px #111;
+	-moz-box-shadow: 3px 3px 5px #111;
+	-webkit-box-shadow: 3px 3px 5px #111;
+}
+
+.dspBox  {
+    
+    width: 214px; height: 216px;
+    background-image: url('images/DisplayCSS.png');
+    margin-left: 8px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ccffcc;
+    padding: 18px 10px 0px 2px;
+}
+
+.logoBtn {
+    
+    background-image: url('images/hLogoJWL.png');
+    width: 774px; height: 90px;
+    margin: 7px 33px 0px 8px;
+}
+
+.logoBtn:hover {
+    
+    background-image: url('images/hLogoJGL.png');
+    width: 774px; height: 90px;
+}
+
+.bigImg {
+    
+    height: 101px;
+    margin-top: 12px; margin-bottom: 10px;
+    margin-left: auto; margin-right: auto;
+}
+
+/*****************************************************************
+ Following code is inherited from Hover.css by: Ian Lunn @IanLunn
+ and is copyrighted by Ian Lunn 2014.
+*****************************************************************/
+
+/* Bob */
+@-webkit-keyframes hvr-bob {
+    0% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+    }
+    
+    50% {
+        -webkit-transform: translateY(-4px);
+        transform: translateY(-4px);
+    }
+    
+    100% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+    }
+}
+
+@keyframes hvr-bob {
+    0% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+    }
+    
+    50% {
+        -webkit-transform: translateY(-4px);
+        transform: translateY(-4px);
+    }
+    
+    100% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+    }
+}
+
+@-webkit-keyframes hvr-bob-float {
+    100% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+    }
+}
+
+@keyframes hvr-bob-float {
+    100% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+    }
+}
+
+.hvr-bob {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+}
+.hvr-bob:hover, .hvr-bob:focus, .hvr-bob:active {
+    -webkit-animation-name: hvr-bob-float, hvr-bob;
+    animation-name: hvr-bob-float, hvr-bob;
+    -webkit-animation-duration: .3s, 1.5s;
+    animation-duration: .3s, 1.5s;
+    -webkit-animation-delay: 0s, .3s;
+    animation-delay: 0s, .3s;
+    -webkit-animation-timing-function: ease-out, ease-in-out;
+    animation-timing-function: ease-out, ease-in-out;
+    -webkit-animation-iteration-count: 1, infinite;
+    animation-iteration-count: 1, infinite;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-direction: normal, alternate;
+    animation-direction: normal, alternate;
+}
