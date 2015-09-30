@@ -6,7 +6,7 @@ html {
 	     -o-background-size: cover;
 	        background-size: cover;*/
     
-    background:#505D6E url('../images/fTB.jpg') repeat top center fixed; 
+    background:#505D6E url('images/fTB.jpg') repeat top center fixed; 
 	min-height:100%;
 }
 
@@ -95,6 +95,7 @@ body {
 	-webkit-border-radius: 2px;
 	   -moz-border-radius: 2px;
 	        border-radius: 2px;
+    width:100px;
 }
 .mainmenu .dropdown-menu a:hover { 
 	background:rgba(255,255,255,.1);
