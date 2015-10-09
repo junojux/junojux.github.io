@@ -116,7 +116,7 @@ a:focus {
 }
 
 .dropdown-menu {
-	background: rgba(25, 25, 25, 0.6);
+	background: rgba(17, 17, 17, 1.0);
 }
 
 .dropdown-menu > li > a {
