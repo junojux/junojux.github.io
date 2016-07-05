@@ -442,6 +442,30 @@ csmall2 {
     .column-right { width: 35%; float: left; }
 }
 
+.flex-yt {
+    width: 640px; height: 360px;
+}
+
+@media screen and (max-width: 700px) {
+    .flex-yt { width: 320px; height: 180px; }
+}
+
+.flex-hau {
+     width: 640px; height: 348px;
+}
+
+@media screen and (max-width: 700px) {
+    .flex-hau { width: 320px; height: 174px; }
+}
+
+.flex-gmk {
+     width: 640px; height: 414px;
+}
+
+@media screen and (max-width: 700px) {
+    .flex-gmk { width: 320px; height: 207px; }
+}
+
 .column-left {
     padding-top: 80px
 }
