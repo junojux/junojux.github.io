@@ -8,25 +8,31 @@
 
     <url>
         <loc>http://ju-x.com/</loc>
-        <lastmod>2016-07-05T00:00:00+00:00</lastmod>
+        <lastmod>2016-08-05T00:00:00+00:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>http://ju-x.com/frosting.html</loc>
+        <lastmod>2016-08-05T00:00:00+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
         <loc>http://ju-x.com/hostingau.html</loc>
-        <lastmod>2016-07-05T00:00:00+00:00</lastmod>
+        <lastmod>2016-08-05T00:00:00+00:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>http://ju-x.com/gimmick.html</loc>
-        <lastmod>2016-07-05T00:00:00+00:00</lastmod>
+        <lastmod>2016-08-05T00:00:00+00:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>http://ju-x.com/service.html</loc>
-        <lastmod>2014-07-05T00:00:00+00:00</lastmod>
+        <lastmod>2014-08-05T00:00:00+00:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>

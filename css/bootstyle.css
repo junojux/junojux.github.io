@@ -316,6 +316,10 @@ media_tag_1 {media_subcode:1}
     padding: 15px;
 }
 
+#bluewrap p {
+    color: black;
+}
+
 /* Black Wrap */
 
 #blackwrap {
