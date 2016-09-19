@@ -328,6 +328,28 @@ media_tag_1 {media_subcode:1}
     padding-bottom: 40px;
 }
 
+/* Dark Gray Wrap */
+
+#d-graywrap {
+    background-color: #1d1d1d;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+#d-graywrap i {
+    color: #00b3fe;
+    font-size: 60px;
+    padding: 15px;
+}
+
+#d-graywrap p {
+    font-size: 20px;
+}
+
+#d-graywrap p.smalltext {
+    font-size: 14px;
+}
+
 /* Gray Wrap */
 
 #graywrap {
